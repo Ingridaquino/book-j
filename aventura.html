@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--FONTE GOOGLE-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <!-- fonte bootstrap-->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <!--SWIPER-->
+      <!-- Link Swiper's CSS -->
+      <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+      <!--CSS-->
+      <link rel="stylesheet" href="./css/footer.css">
+      <link rel="stylesheet" href="./css/global.css">
+      <title>BOOKSTAN</title>
+    </head>
+    <body>
+        <!--header-->
+        <header id="header">
+            <h3 id="logo">Bookstan</h3>
+            <nav id="nav" class="row justify-content-md-center"> 
+              <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+              </button>
+              <ul id="menu" role="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                  <div class="dropdown-menu">  
+                    <a class="dropdown-item" href="./suspense.html">Suspense</a> 
+                    <a class="dropdown-item" href="./livrosromance.html">Romance</a>
+                    <a class="dropdown-item" href="./aventura.html">Aventuras</a> 
+                    <a class="dropdown-item" href="./livrosmanga.html">Mangás</a> 
+                  </div>
+                </li>
+                <li><a href="./sobre.html">Sobre</a></li>
+              </ul>
+            </nav>  
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+              <button class="btn my-2 my-sm-0 btn-pes" type="submit">Pesquisar</button>
+            </form>
+          </header>
+         <!--Fim do header-->
+
+          <!--Inicio da Main-->
+          <main class="conteudo-principal">
+             <!--Aventura-->
+            <div class="titulo-livros">
+              <h2>Aventura</h2>
+            </div>
+            <div class="livros d-flex p-5 bd-highlight swiper mySwiper ">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem; ">
+                    <img class="card-img-top image" src="./img/aventura/alicenopaisdasmaravilhas.png" alt="Alice no país das maravilhas">
+                    <div class="card-body">
+                      <h5 class="card-title">Alice no país das maravilhas</h5>
+                      <p class="card-text">Autor:Lewis Carroll</p>
+                      <h6>R$ 49,90 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/AsCrônicasdeNárnia.jpg" alt="As cronicas de narnia">
+                    <div class="card-body">
+                      <h5 class="card-title">As cronicas de narnia</h5>
+                      <p class="card-text">Autor: C. S. Lewis</p>
+                      <h6>R$ 38,90 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+               </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/cortedenevoaefuria.jpg" alt="Corte da nevoa">
+                    <div class="card-body">
+                      <h5 class="card-title">Corte da nevoa</h5>
+                      <p class="card-text">Autor:Sarah J. Maas</p>
+                      <h6>R$ 35,90 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/cortedeespinhoserosas.jpg" alt="Corte de espinho">
+                    <div class="card-body">
+                      <h5 class="card-title">Corte de espinho</h5>
+                      <p class="card-text">Autor:Sarah J. Maas</p>
+                      <h6>R$32,90 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/Duna2.jpg" alt="Duna">
+                    <div class="card-body">
+                      <h5 class="card-title">Duna</h5>
+                      <p class="card-text">Autor:Frank Herbert</p>
+                      <h6>R$ 39,88</h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+               
+                <!-- <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+              </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <!-- fim Aventura-->
+
+            <!--Mais populares-->
+            <div class="titulo-livros">
+               <h2>Mais Populares</h2>
+            </div>
+            <div class="livros d-flex p-5 bd-highlight swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem; ">
+                    <img class="card-img-top image" src="./img/aventura/lugarnenhum.jpg" alt="Lugar nenhum">
+                    <div class="card-body">
+                      <h5 class="card-title">Lugar nenhum</h5>
+                      <p class="card-text">Autor:Neil Gaiman</p> 
+                      <h6>R$ 22,00 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/ohobbit.jpg" alt="O hobbit">
+                    <div class="card-body">
+                      <h5 class="card-title">O hobbit</h5>
+                      <p class="card-text">Autor:J. R. R. Tolkien</p>
+                      <h6>R$ 49,88 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/oinstituto.jpg" alt="O instituto">
+                    <div class="card-body">
+                      <h5 class="card-title">O instituto</h5>
+                      <p class="card-text">Autor:Stephen King</p>
+                      <h6>R$ 29,99 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/outlander2.jpg" alt="Outlander">
+                    <div class="card-body">
+                      <h5 class="card-title">Outlander</h5>
+                      <p class="card-text">Autor:Diana Gabaldon</p>
+                      <h6>R$ 38,88 </h6>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card mr-md-2" style="width: 25rem;">
+                    <img class="card-img-top image" src="./img/aventura/pontodeimpacto.png" alt="Ponto de impacto">
+                    <div class="card-body">
+                      <h5 class="card-title">Ponto de impacto</h5>
+                      <p class="card-text"> Autor:Dan Brown</p>
+                      <p class="card-text">R$ 40,00 </p>
+                      <a href="#" class="btn btn-warning">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+                <div class="swiper-slide">Slide 9</div> -->
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <!--FIM MAIS POPULARES-->
+
+            <div class="livros d-flex p-5 bd-highlight swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card mr-md-2" style="width: 25rem;">
+                  <img class="card-img-top image" src="./img/aventura/tempo.jpg" alt="Maquina do tempo">
+                  <div class="card-body">
+                    <h5 class="card-title">Maquina do tempo</h5>
+                    <p class="card-text">Autor:H. G. Wells</p>
+                    <h6>R$ 24,90 </h6>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card mr-md-2" style="width: 25rem;">
+                  <img class="card-img-top image" src="./img/aventura/umadobranotempo.jpg" alt="Uma dobra no tempo">
+                  <div class="card-body">
+                    <h5 class="card-title"> </h5>
+                    <p class="card-text">Autor:Madeleine L’Engle</p>
+                    <h6>R$ 22,15 </h6>
+                    <a href="#" class="btn btn-warning">Comprar</a> 
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card mr-md-2" style="width: 25rem;">
+                  <img class="card-img-top image" src="./img/aventura/viagemaocentronaterra.jpg" alt="Viagem ao centro da Terra">
+                  <div class="card-body">
+                    <h5 class="card-title"> </h5>
+                    <p class="card-text">Autor:Júlio Verne</p>
+                    <h6>R$ 35,99</h6>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card mr-md-2" style="width: 25rem;">
+                  <img class="card-img-top image" src="./img/aventura/oenigmadooito2.jpg" alt="O enigma do oito">
+                  <div class="card-body">
+                    <h5 class="card-title">O enigma do oito</h5>
+                    <p class="card-text">Autor:Katherine Neville</p>
+                    <h6>R$ 29,90</h6>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card mr-md-2" style="width: 25rem; ">
+                  <img class="card-img-top image" src="./img/aventura/starwars.jpg" alt="Star wars">
+                  <div class="card-body">
+                    <h5 class="card-title">Star wars</h5>
+                    <p class="card-text">Autor:Chuck Wendig</p>
+                    <h6>R$ 23,90 </h6>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div> -->
+            </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </main>
+
+          <!--ANUNCIO-->
+          <div class="card mb-3">
+            <img class="card-img-top" src="./img/anuncios//BF-premiados-banner-desktop-cupom.png" alt="Imagem de capa do card">
+          </div>
+        
+
+           <!--FOOTER-->
+          <div class="footer">
+            <footer>
+                <div class="container">
+                  <div class="row">
+                    <div class="col pagamento">
+                      <h3>Pagamentos</h3>
+                        <img src="./img/bank-card-fill.svg" alt="Bank Card">
+                        <img src="./img/mastercard-fill.svg" alt="Master Card">
+                        <img src="./img/visa-fill.svg" alt="Visa"></a> 
+                        <img src="./img/icons8-payment-64 1.svg" alt="Payment">
+                    </div>
+                    <div class="col informacao">
+                    <h3>Institucional</h3>
+                      <p>Políticas de Vendas, Trocas e Privacidade</p>
+                      <p>Relações com Investidores</p> 
+                      <p>Eventos</p> 
+                      <p>Termos e Condições de Compra</p>        
+                   </div>
+                  </div>
+                  <br>
+                  <br>
+                  <br>
+                  <div class="row"> 
+                    <div class="col item social">
+                      <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+                      <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+                      <a href="#"><img src="./img/whatsapp (1).svg" alt="Whatsapp"></a>
+                      <a href="#"><img src="./img/image 22.svg" alt="Email"></a>      
+                   </div>
+                  </div> 
+                    <p class="copyright">Bookstan © 2020</p>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!--BOOTSTRAP-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       
+        <!--SCRIPT-->
+        <script src="main.js"></script>
+        </body>
+    </html>
