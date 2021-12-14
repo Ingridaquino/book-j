@@ -21,8 +21,8 @@ li{
 
 /*NAVEGADOR*/
 #menu li > a:hover {
-  background: #d477df;
-  color:  rgb(251,201,40);
+  /* background: #d477df; */
+  color: rgb(142, 18, 199);
 }
 
 
@@ -33,24 +33,6 @@ li{
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
-}
-
-#logo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: rgba(8, 8, 8, 0.837);
-  text-transform: uppercase;
-}
-  
-#header {
-  box-sizing: border-box;
-  height:5rem;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background: rgba(64, 143, 253, 0.692) ;
-  background: linear-gradient(150deg, rgba(64, 143, 253, 0.692) 6%, rgba(255,63,88,1) 46%, rgb(251,201,40) 100%);;
 }
 
 #menu {
@@ -77,14 +59,65 @@ li{
 }
 
 #menu .nav-item .dropdown-menu > a:hover{
-  background: #d477df;
-  color: rgb(251,201,40)
+  background: transparent;
+  /* background: #d477df; */
+  color: rgb(142, 18, 199);
+  border-bottom: 2px solid #d477df;
 }
+
+  
+/*Botao de pesquisa*/
+.btn-pes,  .usuario{
+  border: .1rem solid rgb(142, 18, 199);
+  background: #d477df;
+  font-weight: 600;
+}
+
+.btn-pes:hover{
+  opacity: .8;
+}
+
+
+/*LOGO*/
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(8, 8, 8, 0.837);
+  text-transform: uppercase;
+}
+
+
+/*HEADER*/
+  
+#header {
+  box-sizing: border-box;
+  height:5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(64, 143, 253, 0.692) ;
+  background: linear-gradient(150deg, rgba(64, 143, 253, 0.692) 6%, rgba(255,63,88,1) 46%, rgb(251,201,40) 100%);;
+}
+
+
 
 #btn-mobile {
   display: none;
 }
 
+
+/* LIVROS*/
+.card-body{
+  height: 14rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* CATEGORIAS DOS LIVROS*/
 .titulo-livros{
   font-size: 600;
   color: black;
@@ -92,6 +125,8 @@ li{
 }
 
 
+
+/*MENU RESPONSIVO*/
 @media (max-width: 900px) {
   #menu {
     display: block;
@@ -120,6 +155,10 @@ li{
     border-bottom: 2px solid rgb(251,201,40);
   }
   
+  #menu a:hover{
+    color: rgb(142, 18, 199);
+     border-bottom: 2px solid #d477df;
+  }
   
   #btn-mobile {
     display: flex;
@@ -163,36 +202,19 @@ li{
 }
 
 
+
+
 /*ICONS*/
-.icon-itens{
+/* .icon-itens{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 .icon{
     width:1.5rem;
-}
+} */
 
-  
-/*Botao de pesquisa*/
-.btn-pes,  .usuario{
-  border: .1rem solid rgb(142, 18, 199);
-  background: #d477df;
-  font-weight: 600;
-}
 
-.btn-pes:hover{
-  opacity: .8;
-}
-
-.card-body{
-  height: 14rem;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-}
 
 
 /*CARROSEUL DOS LIVROS*/

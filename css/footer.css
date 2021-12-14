@@ -50,15 +50,28 @@
     padding: .255rem;
   }
 
+  /*LOGIN E CADASTRO*/
+
   .footer .login .avatar{
-    background-color: transparent;
+    background: transparent;
+    display: flex;
+    /* align-items: center; */
+    /* gap: 2rem; */
   }
 
+  .footer .login .avatar > img{
+    width: 10%;
+    margin: 2rem .25rem;
+  }
 
   .footer .login h3 {
-    font-size: 1rem;
+    font-size: 2rem;
+    margin: 2.2rem .25rem;
   }
 
+  
+
+  /*rede social*/
   .footer .social h3{
     margin-bottom: 2.5rem;
     font-weight: 600;
@@ -89,12 +102,54 @@
     font-weight: 600;
   }
   
-  .titulo-livros{
-    margin-left: 2rem;
-    padding: 1rem;
-    font-size: 1rem;
-    color: rgba(136, 135, 135, 0.993);
+/*FORMULARIO*/
+  .footer .modal-body {
+    background: linear-gradient(35deg, rgba(64, 143, 253, 0.692) 6%, rgba(255,63,88,1) 46%, rgb(251,201,40) 100%);
   }
 
+  .footer .modal-body  .form-group{
+      font-size: 1.5rem;
+      width: 80%;
 
-  
+  }
+
+  .footer form .entrar {
+    border: .1rem solid rgb(142, 18, 199);
+    background: #d477df;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.footer form .entrar:hover {
+  opacity: .8;
+}
+
+
+
+
+  @media(max-width: 1200px){
+    .footer .pagamento >  img{
+      width: 2.5rem;
+    }
+
+    .footer .social.item > a img{
+      width: 10%;
+    }
+
+    .footer h3{
+      font-size: 1.8rem;
+    }
+
+    /*LOGIN E CADASTRO*/
+
+  .footer .login .avatar > img{
+    width: 12%;
+    margin: 2.8rem .25rem 3rem 3rem;
+  }
+
+  .footer .login h3 {
+    font-size: 1.5rem;
+    margin: 2.5rem .25rem;
+  }
+
+  }
