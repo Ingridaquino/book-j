@@ -24,13 +24,13 @@ li{
   /* background: #d477df; */
   color: rgb(251, 255, 4);
 
-  -moz-transition: color 2ms ease-in;
+  -moz-transition: color 220ms ease-in;
     /* WebKit */
-    -webkit-transition: color 2ms ease-in;
+    -webkit-transition: color 220ms ease-in;
     /* Opera */
-    -o-transition: color 2ms ease-in;
+    -o-transition: color 220ms ease-in;
     /* Standard */
-    transition: color 2ms ease-in;
+    transition: color 220ms ease-in;
 }
 
 
@@ -72,15 +72,14 @@ li{
   color: rgb(251, 255, 4);
   border-bottom: 2px solid #d477df;
 
-  -moz-transition: color 2ms ease-in;
-    /* WebKit */
-    -webkit-transition: color 2ms ease-in;
-    /* Opera */
-    -o-transition: color 2ms ease-in;
-    /* Standard */
-    transition: color 2ms ease-in;
+  -moz-transition: color 220ms ease-in;
+  /* WebKit */
+  -webkit-transition: color 220ms ease-in;
+  /* Opera */
+  -o-transition: color 220ms ease-in;
+  /* Standard */
+  transition: color 220ms ease-in;
 }
-
   
 /*Botao de pesquisa*/
 .btn-pes,  .usuario{
@@ -175,13 +174,13 @@ li{
     color: rgb(142, 18, 199);
     border-bottom: 2px solid #d477df;
 
-    -moz-transition: color 2ms ease-in;
+    -moz-transition: color 220ms ease-in;
     /* WebKit */
-    -webkit-transition: color 2ms ease-in;
+    -webkit-transition: color 220ms ease-in;
     /* Opera */
-    -o-transition: color 2ms ease-in;
+    -o-transition: color 220ms ease-in;
     /* Standard */
-    transition: color 2ms ease-in;
+    transition: color 220ms ease-in;
   }
   
   #btn-mobile {
