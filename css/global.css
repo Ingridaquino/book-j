@@ -22,7 +22,15 @@ li{
 /*NAVEGADOR*/
 #menu li > a:hover {
   /* background: #d477df; */
-  color: rgb(142, 18, 199);
+  color: rgb(251, 255, 4);
+
+  -moz-transition: color 2ms ease-in;
+    /* WebKit */
+    -webkit-transition: color 2ms ease-in;
+    /* Opera */
+    -o-transition: color 2ms ease-in;
+    /* Standard */
+    transition: color 2ms ease-in;
 }
 
 
@@ -55,14 +63,22 @@ li{
 #menu .nav-item .dropdown-menu > a{
   margin:  0 auto;
   padding: 2rem ;
-  border-bottom: 2px solid rgb(251,201,40);
+  border-bottom: 2px solid rgb(142, 18, 199);
 }
 
 #menu .nav-item .dropdown-menu > a:hover{
   background: transparent;
   /* background: #d477df; */
-  color: rgb(142, 18, 199);
+  color: rgb(251, 255, 4);
   border-bottom: 2px solid #d477df;
+
+  -moz-transition: color 2ms ease-in;
+    /* WebKit */
+    -webkit-transition: color 2ms ease-in;
+    /* Opera */
+    -o-transition: color 2ms ease-in;
+    /* Standard */
+    transition: color 2ms ease-in;
 }
 
   
@@ -152,12 +168,20 @@ li{
   #menu a{
     padding: 2rem ;
     margin: 0 1rem;
-    border-bottom: 2px solid rgb(251,201,40);
+    border-bottom: 2px solid  rgb(142, 18, 199);
   }
   
   #menu a:hover{
     color: rgb(142, 18, 199);
-     border-bottom: 2px solid #d477df;
+    border-bottom: 2px solid #d477df;
+
+    -moz-transition: color 2ms ease-in;
+    /* WebKit */
+    -webkit-transition: color 2ms ease-in;
+    /* Opera */
+    -o-transition: color 2ms ease-in;
+    /* Standard */
+    transition: color 2ms ease-in;
   }
   
   #btn-mobile {

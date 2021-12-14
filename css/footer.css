@@ -69,7 +69,10 @@
     margin: 2.2rem .25rem;
   }
 
-  
+  .footer .login h3:hover {
+    color: rgb(251, 255, 4) ;
+  }
+
 
   /*rede social*/
   .footer .social h3{
@@ -110,9 +113,7 @@
   .footer .modal-body  .form-group{
       font-size: 1.5rem;
       width: 80%;
-
   }
-
   .footer form .entrar {
     border: .1rem solid rgb(142, 18, 199);
     background: #d477df;
@@ -127,6 +128,7 @@
 
 
 
+/*RESPONSIVO*/
   @media(max-width: 1200px){
     .footer .pagamento >  img{
       width: 2.5rem;
