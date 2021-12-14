@@ -20,33 +20,86 @@
       <title>BOOKSTAN - Romance </title>
     </head>
     <body>
-      <!-- Header -->
-      <header id="header">
-        <h3 id="logo">Bookstan</h3>
-        <nav id="nav">
-          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-            <span id="hamburger"></span>
-          </button>
-          <ul id="menu" role="menu">
-            <li><a href="./index.html">Home</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-              <div class="dropdown-menu">  
-                <a class="dropdown-item" href="./suspense.html">Suspense</a> 
-                <a class="dropdown-item" href="./livrosromance.html">Romance</a>
-                <a class="dropdown-item" href="./aventura.html">Aventura</a> 
-                <a class="dropdown-item" href="./livrosmanga.html">Mangá</a> 
+        <!-- HEADER-->
+        <header id="header">
+          <h3 id="logo">Bookstan</h3>
+          <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+              <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+              <li><a href="./index.html">Home</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
+                <div class="dropdown-menu">  
+                  <a class="dropdown-item" href="./suspense.html">Suspense</a> 
+                  <a class="dropdown-item" href="./livrosromance.html">Romance</a>
+                  <a class="dropdown-item" href="./aventura.html">Aventura</a> 
+                  <a class="dropdown-item" href="./livrosmanga.html">Mangá</a> 
+                </div>
+              </li> 
+              <li><a href="./sobre.html">Sobre</a></li>
+            </ul>
+          </nav>  
+          <form class="form-inline my-2 my-lg-0 pesquisa">
+            <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+            <button class="btn my-2 my-sm-0 btn-pes" type="submit">Pesquisar</button>
+          </form>
+            <div class="login" id="login">
+              <!-- Botão para acionar modal --> 
+              <button type="button" class="btn avatar" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <img src="./img/Avatar.svg" alt="Login & Cadastro"> 
+              </button>
+              
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                <div class="modal-body">
+                  <form  action="#" method="POST">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">                 
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Senha</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Conectar</label>
+                </div>
+                <button type="submit" class="btn entrar" id="botaoEnviar">Entrar</button>
+    
+              <!--Cadastro-->
+    
+                <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+                <hr>
+                <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="email" class="form-control" id="nome"  placeholder="Seu nome">
               </div>
-            </li> 
-            <li><a href="./sobre.html">Sobre</a></li>
-          </ul>
-        </nav>  
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button class="btn my-2 my-sm-0 btn-pes" type="submit">Pesquisar</button>
-        </form>
-      </header>
-        <!--Fim do header-->
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Deseja receber novidades?</label>
+              </div>
+                <button type="submit" class="btn entrar" id="botaoCadastrar">Cadastrar</button>
+              </form>
+              </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              </div>
+        </header>
+        <!--HEADER-->
 
         <!-- Main -->
           <main class="conteudo-principal">
@@ -324,91 +377,33 @@
           </div>
         
          
-          <div class="footer">
+          <div class="footer">  
             <footer>
-                <div class="container">
-                  <div class="row">
-                    <div class="col pagamento">
-                      <h3>Pagamentos</h3>
-                        <img src="./img/bank-card-fill.svg" alt="Bank Card">
-                        <img src="./img/mastercard-fill.svg" alt="Master Card">
-                        <img src="./img/visa-fill.svg" alt="Visa"></a> 
-                        <img src="./img/icons8-payment-64 1.svg" alt="Payment">
-                    </div>
-                    <div class="col login">
-                      <!-- Botão para acionar modal -->
-                      <button type="button" class="btn avatar" data-toggle="modal" data-target=".bd-example-modal-lg">
-                       <img src="./img/Avatar.svg" alt=""> 
-                       <h3>Login/Cadastro</h3> 
-                      </button>
-                      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                <span aria-hidden="true">&times;</span>
-                              </button>
-                            </div>
-                            <div class="modal-body">
-                              <form  action="#" method="POST">
-                                  <div class="form-group">
-                                    <label for="exampleInputEmail1">Endereço de email</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-                                    
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="exampleInputPassword1">Senha</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                                  </div>
-                                  <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Conectar</label>
-                                  </div>
-                                  <button type="submit" class="btn entrar" id="botaoEnviar">Entrar</button>
-
-                                  <!--Cadastro-->
-
-                                  <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
-                                  <hr>
-                                  <div class="form-group">
-                                    <label for="nome">Nome</label>
-                                    <input type="email" class="form-control" id="nome"  placeholder="Seu nome">
-                                    
-                                  </div>
-                                  <div class="form-group">
-                                    <label for="email">E-mail</label>
-                                    <input type="email" class="form-control" id="email" placeholder="Seu e-mail">
-                                  </div>
-                                  <div class="form-group form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Deseja receber novidades?</label>
-                                  </div>
-                                  <button type="submit" class="btn entrar" id="botaoCadastrar">Cadastrar</button>
-                              </form>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                   </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col pagamento">
+                    <h3>Pagamentos</h3>
+                    <img src="./img/bank-card-fill.svg" alt="Bank Card">
+                    <img src="./img/mastercard-fill.svg" alt="Master Card">
+                    <img src="./img/visa-fill.svg" alt="Visa"></a> 
+                    <img src="./img/icons8-payment-64 1.svg" alt="Payment">
                   </div>
-                 
-                  <div class="row"> 
-                    <div class="col item social">
-                      <h3>Redes sociais</h3>
-                      <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
-                      <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
-                      <a href="#"><img src="./img/whatsapp (1).svg" alt="Whatsapp"></a>
-                      <a href="#"><img src="./img/image 22.svg" alt="Email"></a>      
-                   </div>
-                  </div> 
-                    <p class="copyright">Bookstan © 2020</p>
+                <div class="row"> 
+                  <div class="col item social">
+                    <h3>Redes sociais</h3>
+                    <a href="#"><img src="./img/facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./img/instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./img/whatsapp (1).svg" alt="Whatsapp"></a>
+                    <a href="#"><img src="./img/image 22.svg" alt="Email"></a>      
+                  </div>
+                </div> 
+                <div class="col-12">
+                  <p class="copyright">Bookstan © 2020</p>
                 </div>
+                </div>
+              </div>
             </footer>
-
+          </div>
             
         <!-- Swiper JS -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

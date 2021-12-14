@@ -54,6 +54,9 @@ li{
   color: rgba(8, 8, 8, 0.837);
 }
 
+
+
+/*MENU CATEGORIA*/
 #menu .nav-item .dropdown-menu{
   margin: 0 auto;
   padding: 5rem;
@@ -82,10 +85,12 @@ li{
 }
   
 /*Botao de pesquisa*/
-.btn-pes,  .usuario{
+.btn-pes{
   border: .1rem solid rgb(142, 18, 199);
   background: #d477df;
   font-weight: 600;
+  height: 2.4rem;
+  margin: 0 .25rem;
 }
 
 .btn-pes:hover{
@@ -99,6 +104,7 @@ li{
   font-weight: bold;
   color: rgba(8, 8, 8, 0.837);
   text-transform: uppercase;
+  margin: 0 0 0 5rem;
 }
 
 
@@ -116,6 +122,52 @@ li{
 }
 
 
+#header{
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 0 ;
+}
+
+/*LOGIN E CADASTRO*/
+.login{
+  width: 8rem;
+  height: 5rem;
+  margin: 0  -5rem;
+}
+
+ .login .avatar{
+  background: transparent;
+  height: 3rem;
+  margin : 0 auto;
+}
+
+  .login  .avatar img{
+    width: 35%;
+    margin: 1rem auto;
+  }
+
+
+/*FORMULARIO*/
+.login .modal-body {
+  background: linear-gradient(35deg, rgba(64, 143, 253, 0.692) 6%, rgba(255,63,88,1) 46%, rgb(251,201,40) 100%);
+}
+
+.login .modal-body  .form-group{
+    font-size: 1.5rem;
+    width: 80%;
+}
+
+.login form .entrar {
+  border: .1rem solid rgb(142, 18, 199);
+  background: #d477df;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.login form .entrar:hover {
+  opacity: .8;
+}
+
+
+/*X DO MENU RESPONSIVO*/
 
 #btn-mobile {
   display: none;
@@ -143,6 +195,10 @@ li{
 
 /*MENU RESPONSIVO*/
 @media (max-width: 900px) {
+  #header{
+    justify-content: space-around;
+  }
+
   #menu {
     display: block;
     position: absolute;
@@ -156,8 +212,8 @@ li{
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
-  
   }
+  
   #nav.active #menu {
     height: calc(100vh - 70px);
     visibility: visible;
@@ -222,20 +278,18 @@ li{
     transform: rotate(-135deg);
     top: -7px;
   }
+
+  /*botao de pesquisa*/
+  .form-inline{
+    width: 80%;
+  }
+
+  /*LOGIN*/
+  #login{
+    width: 25%;
+  }
+  
 }
-
-
-
-
-/*ICONS*/
-/* .icon-itens{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.icon{
-    width:1.5rem;
-} */
 
 
 
@@ -276,6 +330,10 @@ li{
       overflow-x: hidden;       
 }
 
+#logo{
+  margin: 0 0;
+}
+
 .conteudo-principal h1, h2, h3, h4, h5, h6{
   font-size: 1.2rem;
 }
@@ -301,6 +359,16 @@ li{
   text-align: start;
   font-size: 1rem;
 }
+
+.btn-pes{
+  margin: 0 0;
+}
+
+.login{
+  width: 10%;
+  margin: 0 1rem 0 0;
+}
+
 }
 
 
@@ -330,6 +398,13 @@ li{
   font-size: 1rem;
 }
 
+.pesquisa{
+  display: none;
+}
+
+.login{
+  width: 5%;
+}
 
 }
 

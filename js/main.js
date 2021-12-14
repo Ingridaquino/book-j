@@ -35,3 +35,7 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
+/// Usuário some quando der 900px
+
+const usuario = document.getElementById('login.usuario');
+
