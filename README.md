@@ -72,7 +72,7 @@ cd projeto-book
 
 ## ✏️ Autores *** 
 
-#### Feito com 💚 por [Josiane Lima](https://github.com/josianelima02), [Sarah](https://github.com/saaahisa), [Raíla Menezes](https://github.com/railamenezes) &
+#### Feito com 💚 por [Josiane Lima](https://github.com/josianelima02), [Sarah Isabel](https://github.com/saaahisa), [Raíla Menezes](https://github.com/railamenezes) &
 [Ingrid Aquino](https://www.linkedin.com/in/ingrid-aquino-88a8b9147/)
 
 
