@@ -1,4 +1,4 @@
-# 🐢 Projeto BOOKSTAN
+# 📚 Projeto BOOKSTAN
 
 <p align="center">
   <img src="./gif/book.gif" />
