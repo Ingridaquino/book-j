@@ -19,7 +19,7 @@ Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) |
 Em meio ao caos da pandemia e o isolamento social, quando ninguém podia sair para nada nem para comprar o seus amados livros, decidimos fazer uma loja virtual de livros, onde as pessoas poderiam comprar e receber os seus livros no conforto e segurança do seu lar.
 
 
-## Por que o nome BOOKSTAN?
+#### Por que o nome BOOKSTAN?
 
 O nome é Bookstan (book=Livro e Stan= fã de livros e autores).
 
