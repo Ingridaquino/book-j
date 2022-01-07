@@ -4,7 +4,7 @@
   <img src="./gif/book.gif" />
 </p>
 
-Projeto concluído, acesse pelo link ao lado: 
+Projeto concluído, acesse pelo link ao lado: https://book-stan.netlify.app/
 
 
 
