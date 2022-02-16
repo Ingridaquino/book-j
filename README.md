@@ -9,7 +9,7 @@ Projeto concluído, acesse pelo link ao lado: https://book-stan.netlify.app/
 
 
 ### 🐚  O que é BOOKSTAN?
-- Squirtle é sobre uma livraria online (e-commerce) fictícia, produzido ao longo do curso de
+- Bookstan é sobre uma livraria online (e-commerce) fictícia, produzido ao longo do curso de
 Desenvolvimento Web do [Instituto da Oportunidade Social](https://ios.org.br/) | (IOS) em parceria com a [Brasscom](https://brasscom.org.br/).
 
 
